@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/second_navigation"
+    app:startDestination="@id/profileFirstFragment">
+    <fragment
+        android:id="@+id/profileNextFragment"
+        android:name="com.example.native_navigation_test_java.ProfileNextFragment"
+        android:label="/profile/next"
+        tools:layout="@layout/fragment_profile_next"/>
+    <fragment
+        android:id="@+id/profileFirstFragment"
+        android:name="com.example.native_navigation_test_java.ProfileFirstFragment"
+        android:label="/profile"
+        tools:layout="@layout/fragment_profile_first">
+        <action
+            android:id="@+id/action_profileFirstFragment_to_profileNextFragment"
+            app:destination="@id/profileNextFragment"/>
+    </fragment>
+</navigation>

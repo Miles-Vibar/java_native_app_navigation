@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">native_navigation_test_java</string>
+    <string name="first_page">First Page</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="second_page">Second Page</string>
+    <string name="third_page">Third Page</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="android_studio_android_com">android.studio@android.com</string>
+    <string name="this_is_the_next_page">This is the next page.</string>
+    <string name="go_to_the_next_page">Go to the next page</string>
+    <string name="next_from_profile">Next from Profile</string>
+    <string name="profile_path">Profile/</string>
+</resources>
